@@ -8,7 +8,7 @@ public class Colaborador extends Usuario
 	}
 
 	@Override
-	public void mostarMenu() 
+	public void mostrarMenu() 
 	{
 		System.out.println("\n--- Menú Colaborador ---");
         System.out.println("1) Ver proyectos disponibles");

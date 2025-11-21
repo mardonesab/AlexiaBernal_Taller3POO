@@ -7,5 +7,11 @@ public class Documentacion extends Tarea
 	{
 		super(idProyecto, id, "Documentacion", descripcion, estado, responsable, complejidad, fecha);
 	}
+
+	@Override
+	public void aceptar(TareaVisitor visitante) 
+	{
+		visitante.visitarDocumentacion(this);
+	}
 	
 }

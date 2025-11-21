@@ -21,7 +21,7 @@ public abstract class Usuario
 		return rol;
 	}
 	
-	public abstract void mostarMenu();
+	public abstract void mostrarMenu();
 	
 	
 	

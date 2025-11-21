@@ -65,11 +65,14 @@ public abstract class Tarea
 	}
 
 	@Override
-	public String toString() {
+	public String toString() 
+	{
 		return "Tarea [idProyecto=" + idProyecto + ", id=" + id + ", tipo=" + tipo + ", descripcion=" + descripcion
 				+ ", estado=" + estado + ", responsable=" + responsable + ", complejidad=" + complejidad + ", fecha="
 				+ fecha + "]";
 	}
+	
+	public abstract void aceptar(TareaVisitor visitante);
 	
 	
 	

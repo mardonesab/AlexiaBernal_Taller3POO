@@ -6,5 +6,11 @@ public class Bug extends Tarea
 	{
 		super(idProyecto, id, "Bug", descripcion, estado, responsable, complejidad, fecha);
 	}
+
+	@Override
+	public void aceptar(TareaVisitor visitante) 
+	{
+		visitante.visitarBug(this);
+	}
 	
 }

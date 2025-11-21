@@ -8,7 +8,7 @@ public class Administrador extends Usuario
 	}
 
 	@Override
-	public void mostarMenu() 
+	public void mostrarMenu() 
 	{
 		 System.out.println("\n--- Menú Administrador ---");
 	     System.out.println("1) Ver lista completa de proyectos y tareas");
