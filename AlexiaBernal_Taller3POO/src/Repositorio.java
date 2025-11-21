@@ -1,4 +1,8 @@
-
+/*
+ * Alexia Bernal Mardones
+ * 21.505.877-8
+ * Ingeniería Civil en Computación e Informática
+ */
 import java.io.File;
 import java.io.PrintWriter;
 import java.util.ArrayList;
