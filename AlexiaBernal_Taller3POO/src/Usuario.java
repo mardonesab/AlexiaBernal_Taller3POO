@@ -1,5 +1,5 @@
 
-public class Usuario 
+public abstract class Usuario 
 {
 	String nombre;
 	String contraseña;
@@ -21,6 +21,7 @@ public class Usuario
 		return rol;
 	}
 	
+	public abstract void mostarMenu();
 	
 	
 	
